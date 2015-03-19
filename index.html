@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <link rel="stylesheet" href="public/assets/css/styles.css">
+  <title>My Awesome App</title>
+</head>
+<body>
+
+  <div ng-include src="'public/js/templates/header.html'"></div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div ng-view></div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="public/js/bundle.js"></script>
+  <script src="public/js/vendor/materialize.js"></script>
+
+</body>
+</html>
